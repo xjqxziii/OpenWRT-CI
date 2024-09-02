@@ -38,7 +38,7 @@ UPDATE_PACKAGE "luci-app-easymesh" "ntlf9t/luci-app-easymesh" "main"
 
 if [[ $WRT_REPO != *"lede"* ]]; then
 	UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
-	UPDATE_PACKAGE "homeproxy" "xjqxziii/homeproxy" "main"
+	UPDATE_PACKAGE "homeproxy" "xjqxziii/homeproxy" "master"
 	UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"
 
 	UPDATE_PACKAGE "alpha" "derisamedia/luci-theme-alpha" "master"
