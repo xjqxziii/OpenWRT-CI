@@ -34,7 +34,7 @@ UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-wolplus" "VIKINGYFY/luci-app-wolplus" "main"
 
-UPDATE_PACKAGE "luci-app-easymesh" "ntlf9t/luci-app-easymesh" "main"
+UPDATE_PACKAGE "luci-app-easymesh" "ntlf9t/luci-app-easymesh" "master"
 
 UPDATE_PACKAGE "netdata" "netdata/netdata" "v1.34"
 
