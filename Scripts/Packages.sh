@@ -36,7 +36,7 @@ UPDATE_PACKAGE "luci-app-wolplus" "VIKINGYFY/luci-app-wolplus" "main"
 
 UPDATE_PACKAGE "luci-app-easymesh" "ntlf9t/luci-app-easymesh" "main"
 
-UPDATE_PACKAGE "netdata" "netdata/netdata" "ff45fb46bb556adc70188601ab1a9b1c161fa0cf"
+UPDATE_PACKAGE "netdata" "netdata/netdata" "v1.34"
 
 if [[ $WRT_REPO != *"lede"* ]]; then
 	UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
