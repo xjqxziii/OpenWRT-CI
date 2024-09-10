@@ -16,7 +16,7 @@ sed -i "s/192\.168\.[0-9]*\.[0-9]*/$WRT_IP/g" $CFG_FILE
 sed -i "s/hostname='.*'/hostname='$WRT_NAME'/g" $CFG_FILE
 
 # netdata版本
-sed -i "s/PKG_VERSION:=.*/PKG_VERSION:=1.33.1/g" ./feeds/packages/admin/netdata/Makefile
+#sed -i "s/PKG_VERSION:=.*/PKG_VERSION:=1.33.1/g" ./feeds/packages/admin/netdata/Makefile
 
 
 #配置文件修改
