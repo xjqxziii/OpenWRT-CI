@@ -35,8 +35,8 @@ UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-wolplus" "VIKINGYFY/luci-app-wolplus" "main"
 
 UPDATE_PACKAGE "luci-app-easymesh" "ntlf9t/luci-app-easymesh" "master"
-
-UPDATE_PACKAGE "netdata" "netdata/netdata" "v1.34"
+UPDATE_PACKAGE "luci-app-speedtest-web" "ZeaKyX/luci-app-speedtest-web" "main"
+UPDATE_PACKAGE "speedtest-web" "ZeaKyX/speedtest-web" "main"
 
 if [[ $WRT_REPO != *"lede"* ]]; then
 	UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
