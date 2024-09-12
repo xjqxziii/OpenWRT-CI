@@ -42,6 +42,7 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "homeproxy" "xjqxziii/homeproxy" "main"
 UPDATE_PACKAGE "luci-app-easymesh" "ntlf9t/luci-app-easymesh" "master"
 UPDATE_PACKAGE "luci-app-speedtest-web" "ZeaKyX/luci-app-speedtest-web" "main"
+UPDATE_PACKAGE "speedtest-web" "ZeaKyX/speedtest-web" "main"
 
 if [[ $WRT_REPO == *"openwrt-6.x"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
